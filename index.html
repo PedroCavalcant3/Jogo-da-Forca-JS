@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <script src="JS/javinha.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="buttons.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="IMG/hang-icon.svg" type="image/x-icon">
+    <title>Jogo da Forca</title>
+</head>
+
+<body>
+    <Main>
+        <section>
+            <caption><p>Jogo da Forca</p></caption>
+        <div id="dvplavra" class="dvdisplay">
+            <input type="text" id="letra0" class="letra" maxlength="1">
+            <input type="text" id="letra1" class="letra" maxlength="1">
+            <input type="text" id="letra2" class="letra" maxlength="1">
+            <input type="text" id="letra3" class="letra" maxlength="1">
+            <input type="text" id="letra4" class="letra" maxlength="1">
+            <input type="text" id="letra5" class="letra" maxlength="1">
+            <input type="text" id="letra6" class="letra" maxlength="1">
+            <input type="text" id="letra7" class="letra" maxlength="1">
+            <input type="text" id="letra8" class="letra" maxlength="1">
+            <input type="text" id="letra9" class="letra" maxlength="1">
+            <input type="text" id="letra10" class="letra" maxlength="1">
+            <input type="text" id="letra11" class="letra" maxlength="1">
+            <input type="text" id="letra12" class="letra" maxlength="1">
+            <input type="text" id="letra13" class="letra" maxlength="1">
+            <input type="text" id="letra14" class="letra" maxlength="1">
+            <input type="text" id="letra15" class="letra" maxlength="1">
+            <input type="text" id="letra16" class="letra" maxlength="1">
+            <input type="text" id="letra17" class="letra" maxlength="1">
+            <input type="text" id="letra18" class="letra" maxlength="1">
+            <input type="text" id="letra19" class="letra" maxlength="1">
+        </div>
+
+        <div id="dvjogador" class="dvdisplay">
+            <div ontouchstart="">
+                <input type="text" id="letraJ" class="letraJ" maxlength="1">
+
+                <br>
+                <div id="dvmsg"></div><br>
+                <div id="dvletrasdigitadas">Letras Digitadas</div>
+
+
+                <button class="button" onclick="inicia()"><a>PROXIMA PALAVRA</a></button>
+                <button class="button" onclick="jogar()"><a>JOGAR</a></button>
+                <button class="button" onclick="dica()"><a>DICA</a> </button>
+            </div>
+        </div>
+       
+        </div>
+        <div id="dvForca">
+            <img id="cabeca" src="IMG/cabeca1.png">
+            <img id="corpo" src="IMG/corpo.png">
+            <img id="bracoE" src="IMG/bracoE.png">
+            <img id="bracoD" src="IMG/bracoD.png">
+            <img id="pernaE" src="IMG/pernaE.png">
+            <img id="pernaD" src="IMG/pernaD.png">
+        </div>
+    </section>
+    </Main>
+
+</body>
+
+</html>
